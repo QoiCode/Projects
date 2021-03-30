@@ -1,0 +1,25 @@
+#navbar{
+    position: fixed;
+    width:100%;
+    margin: -10;
+    background-color: aliceblue;
+    align-items: center; 
+}
+#nav-list{ display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;    
+    
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    padding-top: 60px;
+}
+#welcome-section{
+    height: 100vh;
+}
